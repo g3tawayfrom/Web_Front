@@ -3,38 +3,50 @@
 <head>
     <title>Интернет-магазин</title>
     <meta charset="UTF-8">
-    <link href="outline-prototype-label.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <meta name="keywords" content="Интернет-магазин">
 </head>
 <body>
     <header>
-        <h1>K/D/A - Games and more</h1>
+        <div id="logo">
+            <h1>K/D/A - Games and more</h1>
+        </div>
     </header>
     <main>
-        <div>
-            <section>
+        <div id="hot_bar">
+            <div class="hot_bar_catalog">
                 <nav>Каталог</nav>
-                <form>
-                    <input type="search">
-                    <input type="submit" value="Найти">
+            </div>
+            <div class="hot_bar_fs">
+                <input type="search">
+                <input type="submit" value="Найти">
                 </form>
-                <nav>
-                    <dl>
-                        <dt>Корзина</dt>
-                        <dt>Личный кабинет</dt>
-                    </dl>
-                </nav>
+            </div>
+            <div class="hot_bar_purch">
+                <nav>Корзина</nav>
+            </div>
+            <div class="hot_bar_acc">
+                <nav>Личный кабинет</nav>
+            </div>
             </section>
         </div>
-        <div>
+        <div id="ad1">
             <section>
-                <img src="starfield.jpg">
+                <img src="content/starfield.jpg">
                 <h3>
                     Starfield - новая ролевая игра от Bethesda<br>Предзакажи сейчас!</br>
                 </h3>
             </section>
         </div>
-        <div>
+        <div id="ad2">
+            <section>
+                <img src="content/mk1.png">
+                <h3>
+                    Mortal Kombat 1 - перезапуск легендарной франшизы<br>Предзакажи сейчас!</br>
+                </h3>
+            </section>
+        </div>
+        <div id="hotspot">
             <section>
                 <nav>
                     <dl>
@@ -58,44 +70,56 @@
                 </nav>
             </section>
         </div>
-        <section>
-            <h2>Актуальные акции</h2>
-            <nav>
-                <dl>
-                    <dt><h3>Xbox Game Pass Ultimate - 1 год</h3></dt>
-                    <dd><img src="gamepass.png"></dd>
-                    <p></p>
-                    <dd><h4>5899 рублей <del>7199 рублей</del></h4></dd>
-                    <p></p>
-                    <dt><h3>Fallout 4 - GOTY Edition</h3></dt>
-                    <dd><img src="Fallout_4_poster.jpg"></dd>
-                    <dd>
-                        Игра включает все последние обновления, графические улучшения, а также официальные дополнения.
-                        <br>В игре полностью переработана система прокачки, игровой процесс, изменена RPG-составляющая, а также впервые в серии появилась система улучшения оружия и создания предметов.</br>
-                    </dd>
-                    <p></p>
-                    <dd><h4>299 рублей <del>2399 рублей</del></h4></dd>
-                    <p></p>
-                    <dt><h3>Mortal Kombat 11 Ultimate</h3></dt>
-                    <dd><img src="mk11.jpg"></dd>
-                    <dd>
-                        Ultimate-издание Mortal Kombat 11 - это полная версия Mortal Kombat 11 в дополнении с Боевым набором 2, который включает новых бойцов: Милина, Рейн и Рэмбо.
-                        <br>В это издание также входит ранее выпущенный контент: основная игра Mortal Kombat 11, Боевой набор 1 и дополнение Mortal Kombat 11: Последствия.</br>
-                    </dd>
-                    <p></p>
-                    <dd><h4>399 рублей <del>1099 рублей</del></h4></dd>
-                </dl>
-            </nav>
-        </section>
+        <div id="mainframe">
+            <section>
+                <div class="header">
+                    <h2>Актуальные акции</h2>
+                </div>
+                <nav>
+                    <dl>
+                        <div class="gamepass_columb">
+                            <dt><h3>Xbox Game Pass Ultimate - 1 год</h3></dt>
+                            <dd><img src="content/gamepass.png"></dd>
+                            <p></p>
+                            <dd><h4>5899 рублей <del>7199 рублей</del></h4></dd>
+                        </div>
+                        <div  class="fallout4_columb">
+                            <dt><h3>Fallout 4 - GOTY Edition</h3></dt>
+                            <dd><img src="content/fallout4.jpg"></dd>
+                            <dd>
+                                Игра включает все последние обновления, графические улучшения, а также официальные дополнения.
+                                <br>В игре полностью переработана система прокачки, игровой процесс, изменена RPG-составляющая, а также впервые в серии появилась система улучшения оружия и создания предметов.</br>
+                            </dd>
+                            <p></p>
+                            <dd><h4>299 рублей <del>2399 рублей</del></h4></dd>
+                        </div>
+                        <div class="mk11_columb">
+                            <dt><h3>Mortal Kombat 11 Ultimate</h3></dt>
+                            <dd><img src="content/mk11.jpg"></dd>
+                            <dd>
+                                Ultimate-издание Mortal Kombat 11 - это полная версия Mortal Kombat 11 в дополнении с Боевым набором 2, который включает новых бойцов: Милина, Рейн и Рэмбо.
+                                <br>В это издание также входит ранее выпущенный контент: основная игра Mortal Kombat 11, Боевой набор 1 и дополнение Mortal Kombat 11: Последствия.</br>
+                            </dd>
+                            <p></p>
+                            <dd><h4>399 рублей <del>1099 рублей</del></h4></dd>
+                        </div>
+                    </dl>
+                </nav>
+            </section>
+        </div>
     </main>
     <footer>
-        <aside>
-            <h3>Наши контакты</h3>
-            <ul>
-                <li>+7(987)654-32-01</li>
-                <li>business@email.com</li>
-            </ul>
-        </aside>
+        <div id="footer">
+            <aside>
+                <div class="contacts">
+                    <h3>Наши контакты</h3>
+                    <ul>
+                        <li>+7(987)654-32-01</li>
+                        <li>business@email.com</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
     </footer>
 </body>
 </html>

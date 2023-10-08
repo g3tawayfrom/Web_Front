@@ -1,0 +1,132 @@
+#footer {
+    position: relative;
+    display: block;
+    border: 5px solid black;
+}
+
+.contacts {
+    position: relative;
+    display: inline-block;
+    border: 5px solid darkgrey;
+    left: 25px;
+}
+
+#mainframe {
+    position: relative;
+    display: inline-block;
+    border: 5px solid red;
+    left: 394px;
+    bottom: 300px;
+    width: 1280px;
+    height: 1500px;
+}
+
+.header {
+    border: 5px solid yellow;
+}
+
+.mk11_columb {
+    position: relative;
+    display: inline-block;
+    border: 5px solid pink;
+    top: 2px;
+    width: 450px;
+    height: auto;
+}
+
+.fallout4_columb {
+    position: relative;
+    display: inline-block;
+    border: 5px solid pink;
+    bottom: 73px;
+    margin-right: 10px;
+    width: 375px;
+    height: auto;
+}
+
+.gamepass_columb {
+    position: relative;
+    display: inline-block;
+    border: 5px solid pink;
+    bottom: 310px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 350px;
+    height: auto;
+}
+
+#hotspot {
+    position: relative;
+    display: inline-block;
+    border: 5px solid blue;
+    right: 1256px;
+    bottom: 100px;
+    height: 700px;
+}
+
+#ad1 {
+    position: relative;
+    display: inline-block;
+    border: 5px solid green;
+    top: 14px;
+    left: 400px;
+}
+
+#ad2 {
+    position: relative;
+    display: inline-block;
+    border: 5px solid greenyellow;
+    top: 14px;
+    left: 420px;
+}
+
+#hot_bar {
+    display: block;
+    border: 5px solid grey;
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+.hot_bar_catalog {
+    position: relative;
+    display: inline-block;
+    border: 5px solid darkgrey;
+    width: 200px;
+    margin-top: 15px;
+    left: 50px;
+}
+
+.hot_bar_fs {
+    position: relative;
+    display: inline-block;
+    border: 5px solid darkgrey;
+    width: 550px;
+    margin-top: 15px;
+    left: 200px;
+}
+
+.hot_bar_purch {
+    position: relative;
+    display: inline-block;
+    border: 5px solid darkgrey;
+    width: 200px;
+    margin-top: 15px;
+    left: 400px;
+}
+
+.hot_bar_acc {
+    position: relative;
+    display: inline-block;
+    border: 5px solid darkgrey;
+    width: 200px;
+    margin-top: 15px;
+    left: 500px;
+}
+
+#logo {
+    position: relative;
+    display: inline-block;
+    border: 5px solid black;
+    left: 25px;
+    margin-bottom: 8px;
+}
