@@ -2,4 +2,4 @@
 
 Тема: интернет-магазин
 
-https://g3taway_from.github.io/Web_prog/
+https://g3tawayfrom.github.io/Web_prog/
