@@ -70,6 +70,7 @@ header{
 
 main{
     width: 1920px;
+    height: 1550px;
     margin: 0 auto;
 
     .catalog_frame{
@@ -122,6 +123,8 @@ main{
     }
 
     .ad_frame{
+        height: 400px;
+
         .ad_inner{
             display: inline-block;
             width: 1350px;
