@@ -10,21 +10,68 @@ body{
         text-decoration: none;
         color: inherit;
     }
+
+    @media (max-width: 1750px){
+        .hotbar_gen{
+            max-width: 1730px;
+        }
+
+        .logo{
+            margin-left: 620px;
+        }
+
+        .hb_catalog{
+            padding-left: 108px;
+        }
+
+        .hb_sbar{
+            margin-right: 150px;
+        }
+
+        .hb_order{
+            display: none;
+        }
+
+        .ad_frame, .main_frame{
+            margin-left: 132px;
+        }
+
+        .catalog_frame{
+            display: none;
+        }
+    }
 }
 
 header{
-    width: 1920px;
+    max-width: 1920px;
     height: 150px;
     margin: 0 auto;
 
     .logo{
-        margin-top: 8px;
-        margin-bottom: 2px;
-        padding-left: 7.5%;
+        float: left;
+        margin-top: 6px;
+        margin-bottom: 4px;
+        padding-left: 7%;
         height: 60px;
     }
 
+    .h_text{
+        display: inline-block;
+        border: 2px solid;
+        width: 700px;
+        margin-top: 20px;
+        margin-left: 800px;
+        text-indent: 4rem;
+        color: red;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+
     .hotbar_gen{
+        display: inline-block;
+        width: 1920px;
         height: 80px;
         background:#113f67;
 
@@ -69,7 +116,7 @@ header{
 }
 
 main{
-    width: 1920px;
+    max-width: 1920px;
     height: 1542px;
     margin: 0 auto;
 
@@ -119,7 +166,7 @@ main{
 
     .ad_frame, .main_frame{
         display: inline-block;
-        width: 1485px;
+        max-width: 1485px;
     }
 
     .ad_frame{
@@ -169,7 +216,6 @@ main{
             font-size: 2.5rem;
             line-height:4.375rem;
             font-family: Roboto, sans-serif;
-            font-weight: bold;
             color: azure;
             text-align: center;
         }
@@ -217,10 +263,8 @@ main{
 }
 
 footer{
-    width: 1920px;
-    margin: 0 auto;
-    border-top: 5px solid;
-    border-color: #113f67;
+    position: absolute;
+    max-width: 1920px;
 
     .email{
         display: inline-block;
