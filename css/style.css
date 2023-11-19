@@ -70,7 +70,7 @@ header{
 
 main{
     width: 1920px;
-    height: 1550px;
+    height: 1542px;
     margin: 0 auto;
 
     .catalog_frame{
@@ -131,7 +131,10 @@ main{
             height: 437px;
             margin-left: 4.5%;
             margin-top: 25px;
-            background-color: lightgrey;
+            background-color: whitesmoke;
+            -webkit-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.4);
+            -moz-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.4);
+            box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.4);
 
             .ad_small{
                 float: left;
@@ -174,8 +177,10 @@ main{
         .main_inner{
             display: inline-block;
             width: 1350px;
+            padding-bottom: 40px;
             margin-left: 4.5%;
             margin-bottom: 40px;
+            background-color: antiquewhite;
 
             .main_item{
                 width: 380px;
