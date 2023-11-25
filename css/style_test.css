@@ -102,7 +102,9 @@ header{
 /* main part */
 
 main{
+    display: block;
     max-width: 1920px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -172,7 +174,7 @@ main{
 .hype_frame{
     display: flex;
     justify-content: center;
-    width: 76%;
+    width: 75.5%;
     height: auto;
 }
 
@@ -220,6 +222,7 @@ main{
     flex-wrap: wrap;
     width: 75.5%;
     height: auto;
+    float: right;
 }
 
 @media (max-width: 1296px) {
@@ -232,7 +235,7 @@ main{
     width: 90.9%;
     height: 100%;
     margin-top: 3%;
-    margin-left: 5%;
+    margin-left: 3.8%;
     padding-top: 0.9%;
     padding-bottom: 0.8%;
     background-color: orangered;
@@ -265,7 +268,7 @@ main{
     flex-wrap: wrap;
     width: 90.9%;
     padding-bottom: 4.2%;
-    margin-left: 5%;
+    margin-left: 3.8%;
     margin-bottom: 3%;
     background-color: antiquewhite;
 }
@@ -318,10 +321,71 @@ main{
     }
 }
 
+.table_gen{
+    display: flex;
+    flex-wrap: wrap;
+    width: 24%;
+}
+
+.table_inner{
+    width: 91%;
+    margin-left: 7.6%;
+}
+
+@media (max-width: 1296px) {
+    .table_inner{
+        display: none;
+    }
+}
+
+.table_title{
+    margin-top: 10%;
+    font-size: 1.7rem;
+    line-height: 4.5rem;
+    font-family: Roboto, sans-serif;
+    background-color: #113f67;
+    font-weight: bold;
+    text-align: center;
+    color: coral;
+}
+
+.table_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50%);
+}
+
+.table_container thead, tbody, tr {
+    display: contents;
+}
+
+.table_container td, th {
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.table_container th {
+    border: 1px solid;
+    background-color: dimgrey;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.table_container tbody tr:nth-child(even) td {
+    border: 1px solid;
+    background-color: darkgrey;
+}
+
+.table_container tbody tr:nth-child(odd) td {
+    border: 1px solid;
+    background-color: lightgray;
+}
+
 /* footer part */
 
 footer{
-    position: absolute;
+    display: inline-block;
     width: 100%;
     margin: 0 auto;
     background-color: lightgrey;
