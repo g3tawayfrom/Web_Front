@@ -58,7 +58,7 @@ header{
     text-align: center;
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1296px){
     .hb_order, .hb_acc{
         display: none;
     }
@@ -112,7 +112,7 @@ main{
     float: left;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1296px) {
     .catalog_frame{
         display: none;
     }
@@ -176,7 +176,7 @@ main{
     height: auto;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1296px) {
     .hype_frame{
         width: 100%;
     }
@@ -222,7 +222,7 @@ main{
     height: auto;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1296px) {
     .main_frame{
         width: 100%;
     }
@@ -321,7 +321,8 @@ main{
 /* footer part */
 
 footer{
-    max-width: 1920px;
+    position: absolute;
+    width: 100%;
     margin: 0 auto;
     background-color: lightgrey;
 }
@@ -331,18 +332,10 @@ footer{
     align-items: center;
     width: 25%;
     height: 80%;
-    margin-top: 0.9%;
-    margin-bottom: 0.9%;
-    margin-left: 3.5%;
+    margin-left: 5.8%;
 }
 
-@media (max-width: 1800px) {
-    .email {
-        margin-left: 3.2%;
-    }
-}
-
-@media (max-width: 1280px) {
+@media (max-width: 1296px) {
     .email {
         width: 100%;
         justify-content: center;
@@ -350,10 +343,10 @@ footer{
 }
 
 .img_email{
-    width: 25%;
+    width: 12%;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1296px) {
     .img_email {
         width: 8%;
     }
@@ -361,12 +354,12 @@ footer{
 
 .email_txt{
     margin-left: 2%;
-    font-size: 132%;
+    font-size: 1vw;
     line-height: 400%;
     font-family: Roboto, sans-serif;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1296px) {
     .email_txt{
         margin-right: 9%;
         font-size: 110%;
