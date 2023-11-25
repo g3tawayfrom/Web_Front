@@ -327,13 +327,13 @@ main{
     width: 24%;
 }
 
-.grid_inner{
+.grid_inn{
     width: 91%;
     margin-left: 7.6%;
 }
 
 @media (max-width: 1296px) {
-    .grid_inner{
+    .grid_inn{
         display: none;
     }
 }
