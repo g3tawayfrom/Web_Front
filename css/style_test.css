@@ -327,18 +327,18 @@ main{
     width: 24%;
 }
 
-.grid_inner{
+.table_i{
     width: 91%;
     margin-left: 7.6%;
 }
 
 @media (max-width: 1296px) {
-    .table_inner{
+    .table_i{
         display: none;
     }
 }
 
-.grid_title{
+.table_t{
     margin-top: 10%;
     font-size: 1.7rem;
     line-height: 4.5rem;
