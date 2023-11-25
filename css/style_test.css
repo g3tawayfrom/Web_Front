@@ -327,7 +327,7 @@ main{
     width: 24%;
 }
 
-.table_inner{
+.grid_inner{
     width: 91%;
     margin-left: 7.6%;
 }
@@ -338,7 +338,7 @@ main{
     }
 }
 
-.table_title{
+.grid_title{
     margin-top: 10%;
     font-size: 1.7rem;
     line-height: 4.5rem;
