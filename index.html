@@ -4,6 +4,7 @@
     <title>Интернет-магазин</title>
     <meta charset="UTF-8">
     <link href="css/style_test.css" rel="stylesheet">
+    <script src="js/main.js"></script>
     <meta name="keywords" content="Интернет-магазин">
 </head>
 <body>
@@ -16,14 +17,14 @@
         <!--- <h2 class="h_text">Здесь могла бы быть ваша реклама</h2> --->
         <nav class="hotbar_gen">
             <ul>
+                <li class="hb_index"><a href="index.html">Главная</a></li>
                 <li class="hb_catalog"><a href="catalog.html">Каталог</a></li>
                 <li class="hb_sbar">
                     <form>
                         <input type="text" name=text" class="search" placeholder="Let's roll!">
                     </form>
                 </li>
-                <li class="hb_order"><a href="order.html">Корзина</a></li>
-                <li class="hb_acc"><a href="acc.html">Личный кабинет</a></li>
+                <li class="hb_mypurch"><a href="mypurch.html">Мои покупки</a></li>
             </ul>
         </nav>
     </header>
@@ -31,27 +32,27 @@
     <main>
         <nav class="catalog_frame">
             <ul class="catalog">
-                <li class="cat_hood"><a href="preorders.html">Предзаказы</a></li>
+                <li id="elem" class="cat_hood"><a href="preorders.html">Предзаказы</a></li>
                 <ul class="cat_inner">
-                    <li><a href="starfield.html">Starfield</a></li>
-                    <li><a href="bg3.html">Baldur's gate 3 (PS5)</a></li>
-                    <li><a href="mk1.html">Mortal Kombat 1</a></li>
-                    <li><a href="lop.html">Lies of P</a></li>
-                    <li><a href="pd3.html">Payday 3</a></li>
-                    <li><a href="cp77ph.html">Cyberpunk 2077: Phantom Liberty (DLC)</a></li>
+                    <li class="cat_item"><a href="starfield.html">Starfield</a></li>
+                    <li class="cat_item"><a href="bg3.html">Baldur's gate 3 (PS5)</a></li>
+                    <li class="cat_item"><a href="mk1.html">Mortal Kombat 1</a></li>
+                    <li class="cat_item"><a href="lop.html">Lies of P</a></li>
+                    <li class="cat_item"><a href="pd3.html">Payday 3</a></li>
+                    <li class="cat_item"><a href="cp77ph.html">Cyberpunk 2077: Phantom Liberty (DLC)</a></li>
                 </ul>
                 <li class="cat_hood"><a href="services.html">Услуги</a></li>
                 <ul class="cat_inner">
-                    <li><a href="accps.html">Смена региона PS</a></li>
-                    <li><a href="accxb.html">Смена региона Xbox</a></li>
-                    <li><a href="accst.html">Смена региона Steam</a></li>
-                    <li><a href="payupst.html">Пополнение аккаунтов Steam</a></li>
+                    <li class="cat_item"><a href="accps.html">Смена региона PS</a></li>
+                    <li class="cat_item"><a href="accxb.html">Смена региона Xbox</a></li>
+                    <li class="cat_item"><a href="accst.html">Смена региона Steam</a></li>
+                    <li class="cat_item"><a href="payupst.html">Пополнение аккаунтов Steam</a></li>
                 </ul>
                 <li class="cat_hood"><a href="gameacc.html">Игровые аккаунты</a></li>
                 <ul class="cat_inner">
-                    <li><a href="cs2.html">CS:GO - статус Prime</a></li>
-                    <li><a href="vlrnt.html">Valorant - герои</a></li>
-                    <li><a href="al.html">Apex Legends - герои</a></li>
+                    <li class="cat_item"><a href="cs2.html">CS:GO - статус Prime</a></li>
+                    <li class="cat_item"><a href="vlrnt.html">Valorant - герои</a></li>
+                    <li class="cat_item"><a href="al.html">Apex Legends - герои</a></li>
                 </ul>
                 <li class="cat_hood"><a href="others.html">Прочее</a></li>
             </ul>
@@ -139,6 +140,10 @@
             <img class="img_email" src="content/letphoto.png">
             <a class="email_txt" href="mailto:goshan.0211@yandew.ru">Связаться с нами</a>
         </div>
+
+        <section class="section_time">
+            <span class="time_description">Время загрузки страницы: <span class="time_duration"></span></span>
+        </section>
     </footer>
 </body>
 </html>
