@@ -39,7 +39,7 @@ header{
 
 .hotbar_gen{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 80px;
     background:#113f67;
@@ -80,7 +80,7 @@ header{
     }
 }
 
-.hb_catalog{
+.hb_index{
     width: 138px;
 }
 
@@ -103,11 +103,11 @@ header{
     width: 100%;
 }
 
-.hb_order{
+.hb_catalog{
     width: 158px;
 }
 
-.hb_acc{
+.hb_mypurch{
     width: 250px;
 }
 
