@@ -111,10 +111,6 @@ header{
     width: 250px;
 }
 
-.active {
-    color: coral;
-}
-
 /* main part */
 
 main{
@@ -212,7 +208,7 @@ main{
     justify-content: space-around;
     align-items: center;
     width: 93%;
-    margin-top: 2.3%;
+    margin-top: 1.5%;
     background-color: whitesmoke;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.4);
     -moz-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.4);
@@ -418,6 +414,101 @@ main{
     background-color: lightgray;
 }
 
+/* form content */
+
+#cardForm{
+    margin: 1.8% 8% 1.8%;
+    background-color: lightgrey;
+}
+
+.cardLabels{
+    display: flex;
+    justify-content: center;
+    background-color: #113f67;
+}
+
+.cardText{
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: azure;
+}
+
+#cardContent {/*панелька управления текст*/
+    border: 1px solid;
+    border-color: #161b1d;
+    text-align: center;
+    height: 322px;
+    margin: 1% 3% 1%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: Roboto, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+}
+
+#cardTitle{
+    width: 94%;
+    margin: 1% 3% 1%;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.cardSend{
+    border: 0;
+    width: 94%;
+    margin: 0 3% 1% 3%;
+    padding: 0.25% 0;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: coral;
+    color: azure;
+}
+
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5.55%;
+}
+
+.card {
+    background-color: lightgrey;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 1%;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.card h2{
+    text-align: center;
+    padding: 2%;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    background-color: #113f67;
+    color: azure;
+}
+
+.card p{
+    padding: 7% 2%;
+}
+
+.card button{
+    border: 1px solid black;
+    padding: 0.5% 3%;
+    margin-bottom: 4%;
+    background-color: coral;
+    color: azure;
+}
+
 /* footer part */
 
 footer{
@@ -501,4 +592,8 @@ footer{
         font-size: 110%;
         font-family: Roboto, sans-serif;
     }
+}
+
+.active {
+    color: coral;
 }
