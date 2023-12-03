@@ -146,8 +146,6 @@ main{
     color: coral;
     border: none;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.76);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.76);
     box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.76);
     background-color: #113f67;
     list-style-type: none;
@@ -204,8 +202,6 @@ main{
     width: 93%;
     margin-top: 1.5%;
     background-color: whitesmoke;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.4);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.4);
     box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.4);
 }
 
@@ -216,8 +212,6 @@ main{
     margin-top: 3.9%;
     margin-bottom: 3.9%;
     margin-left: 2.8%;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.5);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.5);
     box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.5);
     font-size: 1.2rem;
     line-height: 2rem;
@@ -227,8 +221,6 @@ main{
 }
 
 .hype_small:hover {
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 1);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 1);
     box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 1);
 }
 
@@ -259,8 +251,6 @@ main{
     padding-top: 0.9%;
     padding-bottom: 0.8%;
     background-color: orangered;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.98);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.98);
     box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.98);
     font-size: 2.5rem;
     line-height: 4.375rem;
@@ -302,16 +292,12 @@ main{
     border: 2px solid;
     border-radius: 5px;
     border-color: lightgrey;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.20);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.20);
     box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.20);
     background-color: whitesmoke;
     text-align: center;
 }
 
 .main_item:hover {
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.50);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.50);
     box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.50);
 }
 
@@ -418,8 +404,6 @@ main{
     margin-left: 4.6%;
     padding-top: 0.9%;
     padding-bottom: 0.8%;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.98);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.98);
     box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.98);
     font-size: 2.4rem;
     line-height: 4rem;
@@ -489,6 +473,11 @@ main{
     font-weight: bold;
     background-color: red;
     color: azure;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 /* form content */
