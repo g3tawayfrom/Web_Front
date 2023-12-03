@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <title>Каталог</title>
+  <title>Отзывы</title>
   <meta charset="UTF-8">
   <link href="css/style_test.css" rel="stylesheet">
   <script src="js/main.js"></script>
+  <script src="js/reviews.js"></script>
   <meta name="keywords" content="Интернет-магазин">
 </head>
 <body>
@@ -17,7 +18,7 @@
       <nav class="hotbar_gen">
         <ul>
           <li class="hb_index"><a href="index.html">Главная</a></li>
-          <li class="hb_catalog"><a href="catalog.html">Каталог</a></li>
+          <li class="hb_catalog"><a href="reviews.html">Отзывы</a></li>
           <li class="hb_sbar">
             <form>
               <input type="text" name=text" class="search" placeholder="Let's roll!">
@@ -30,6 +31,16 @@
 
     <main>
 
+      <h1 class="rev_hood">Отзывы покупателей</h1>
+      <div id="rev_container" style="display: none;">
+        <ul id="rev_list"></ul>
+      </div>
+      <div id="loading_container">
+        <div class="loading_spin"></div>
+      </div>
+      <div id="error_container">
+        <div class="error_placeholder">Произошла ошибка</div>
+      </div>
     </main>
 
     <footer>

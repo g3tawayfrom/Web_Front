@@ -30,8 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
         attachDeleteHandler(card);
     }
 
-
-
     function attachDeleteHandler(card) {
         const deleteBtn = card.querySelector('button');
         deleteBtn.addEventListener('click', function () {
