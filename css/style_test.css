@@ -93,7 +93,7 @@ header{
 @media (max-width: 1061px) {
     .hb_catalog, .hb_sbar, .hb_mypurch, .hb_index{
         margin: 10px;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .hb_sbar{
@@ -108,7 +108,7 @@ header{
 @media (max-width: 680px) {
     .hb_catalog, .hb_sbar, .hb_mypurch, .hb_index{
         margin: 5px;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .hb_index{
