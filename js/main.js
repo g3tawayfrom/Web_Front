@@ -9,19 +9,18 @@ window.addEventListener("load", function () {
 
 window.addEventListener("load", function () {
     const navItems = document.querySelectorAll('nav>ul>li');
-    const footerItems = document.querySelectorAll('footer>div');
+    const footerItems = document.querySelectorAll('footer>div>div');
+    const currentPage = document.location.href;
 
     const allItems = [];
     allItems.push.apply(allItems, navItems);
     allItems.push.apply(allItems, footerItems);
 
     for (const item of allItems) {
-        const link = item.querySelector('a');
-        const href = link.getAttribute('href');
+        const href = item.querySelector('a').href;
 
-        if (document.location.href.includes(href)) {
+        if (href === currentPage) {
             item.classList.add('active');
-            break;
         }
     }
 });

@@ -7,6 +7,7 @@
     <script src="js/main.js"></script>
     <script src="js/form.js"></script>
     <meta name="keywords" content="Интернет-магазин">
+    <meta name="description" content="Обратная связь">
 </head>
 <body>
 <header>
@@ -32,33 +33,39 @@
 </header>
 
 <main>
-    <form id="cardForm">
-        <label class="cardLabels" for="cardTitle"><span class="cardText">Выберите тему обратной связи</span></label>
-        <select id="cardTitle">
-            <option value="Сотрудничество">Сотрудничество</option>
-            <option value="Жалоба">Жалоба</option>
-            <option value="Предложение">Предложение</option>
-        </select>
-        <div id="container">
-            <label class="cardLabels" for="cardContent"><span class="cardText">Опишите подробно смысл вашего письма</span></label>
-            <div id="cardContent" contenteditable="true"></div>
-        </div>
-        <input type="submit" class="cardSend" value="Отправить письмо">
-    </form>
-    <div id="cardContainer"></div>
+    <div class="global4">
+        <form id="cardForm">
+            <label class="cardLabels" for="cardTitle"><span class="cardText">Выберите тему обратной связи</span></label>
+            <select id="cardTitle">
+                <option value="Сотрудничество">Сотрудничество</option>
+                <option value="Жалоба">Жалоба</option>
+                <option value="Предложение">Предложение</option>
+            </select>
+            <div id="container">
+                <label class="cardLabels" for="cardContent"><span class="cardText">Опишите подробно смысл вашего письма</span></label>
+                <div id="cardContent" contenteditable="true"></div>
+            </div>
+            <input type="submit" class="cardSend" value="Отправить письмо">
+        </form>
+        <div id="cardContainer"></div>
+    </div>
 </main>
 
 <footer>
-    <div class="email">
-        <img class="img_email" src="content/letphoto.png">
-        <span class="email_txt">
-            <a href="feedback.html">Связаться с нами</a>
-        </span>
-    </div>
+    <div class="global3">
+        <div class="email">
+            <div class="img_gen">
+                <img class="img_email" src="content/letphoto.png">
+            </div>
+            <span class="email_txt">
+                <a href="feedback.html">Связаться с нами</a>
+            </span>
+        </div>
 
-    <section class="section_time">
-        <span class="time_description">Время загрузки страницы: <span class="time_duration"></span></span>
-    </section>
+        <section class="section_time">
+            <span class="time_description">Время загрузки страницы: <span class="time_duration"></span></span>
+        </section>
+    </div>
 </footer>
 </body>
 </html>
