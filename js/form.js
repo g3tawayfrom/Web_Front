@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         createAndSaveCard(cardTitle, cardContent);
 
-        form.reset();
+        document.getElementById('cardContent').textContent = '';
     });
 
     function createAndSaveCard(title, content) {
