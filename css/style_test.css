@@ -124,6 +124,7 @@ header{
 }
 
 .hb_mypurch{
+    cursor: pointer;
     width: 250px;
 }
 
