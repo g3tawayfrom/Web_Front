@@ -18,6 +18,43 @@ header{
     max-width: 100%;
 }
 
+.swal2-popup{
+    max-width: 60%;
+    border-radius: 4px;
+    font-family: Roboto, sans-serif;
+    color: #22313f;
+}
+
+.swal2-title{
+    padding-bottom: 20px;
+    color: coral;
+    background-color: #113f67;
+    font-size: 2rem;
+}
+
+.popup_inner1{
+    margin-bottom: 3%;
+}
+
+.popup_inner2{
+    margin: 0 1%;
+}
+
+.swal2-html-container article{
+    padding-bottom: 3%;
+    background-color: azure;
+}
+
+.swal2-html-container h1{
+    border-top: 3px solid;
+    padding: 2% 0 1%;
+    font-size: 2rem;
+}
+
+.swal2-confirm {
+    color: azure !important;
+}
+
 .logo_gen{
     display: flex;
     justify-content: center;

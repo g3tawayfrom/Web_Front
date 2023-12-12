@@ -4,8 +4,9 @@
     <title>Главная</title>
     <meta charset="UTF-8">
     <link href="css/style_test.css" rel="stylesheet">
-    <link href="css/style_test2.css" rel="stylesheet">
     <script src="js/main.js"></script>
+    <script src="js/signin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <meta name="keywords" content="Интернет-магазин">
     <meta name="description" content="Главная страница магазина">
 </head>
@@ -13,7 +14,7 @@
     <header>
         <div class="logo_gen">
             <div class="logo_min">
-                <a href="index.html"><img class="logo_pic" src="content/logo.png"></a>
+                <img class="logo_pic" src="content/logo.png"></a>
             </div>
         </div>
         <!--- <h2 class="h_text">Здесь могла бы быть ваша реклама</h2> --->
@@ -26,7 +27,7 @@
                         <input type="text" name=text" class="search" placeholder="Let's roll!">
                     </form>
                 </li>
-                <li class="hb_mypurch"><a href="mypurch.html">Мои покупки</a></li>
+                <li class="hb_mypurch" id="policy_button">Политика продаж</li>
             </ul>
         </nav>
     </header>
@@ -117,7 +118,7 @@
                     </a>
                     </div>
                     <div class="main_item"><a href="xbgp365.html"><img class="item_pic" src="content/gamepass.png">
-                        <p class="main_txt_nm">Xbox Game Pass Ultimate - 1 год</p>
+                        <p class="main_txt_nm">Xbox Game Pass Ultimate</p>
                         <p class="main_txt_pr"><strong>5899</strong> рублей <del>7199 рублей</del></p>
                     </a>
                     </div>
