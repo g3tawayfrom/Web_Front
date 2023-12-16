@@ -3,6 +3,11 @@
     padding:0;
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
 body{
     background-color: white;
 }
@@ -222,6 +227,7 @@ main{
     padding-left: 10%;
     font-size: 1rem;
     line-height: 3.3rem;
+    text-indent: 0.4rem;
     font-family: Roboto, sans-serif;
     font-weight: bold;
     color: azure;
@@ -311,7 +317,6 @@ main{
 .main_frame{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 }
 
 .main_hood{
@@ -332,7 +337,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3.5%;
+    gap: 4%;
     flex: 0 1 auto;
     height: max-content;
     padding: 0 3% 2%;
@@ -341,9 +346,8 @@ main{
 }
 
 .main_item{
-    flex: 1 1 auto;
     margin-top: 2%;
-    padding-top: 2%;
+    padding: 2% 2% 1%;
     border: 2px solid lightgrey;
     border-radius: 5px;
     box-shadow: 0 0 15px 0 rgba(34, 60, 80, 0.20);
@@ -363,16 +367,41 @@ main{
     .main_inner{
         margin: 0 3% 3%;
     }
+
+    .item_pic{
+        width: 313px;
+    }
+}
+
+@media (max-width: 1793px){
+    .item_pic{
+        width: 435px;
+    }
 }
 
 @media (max-width: 1700px){
-
     .main_hood{
         margin: 2.8% 0 0;
     }
 
     .main_inner{
         margin: 0 0 3%;
+    }
+
+    .item_pic{
+        width: 460px;
+    }
+}
+
+@media (max-width: 1655px){
+    .item_pic{
+        width: 400px;
+    }
+}
+
+@media (max-width: 1460px){
+    .item_pic{
+        width: 360px;
     }
 }
 
@@ -383,6 +412,10 @@ main{
 
     .main_inner{
         margin: 0 7.8% 3%;
+    }
+
+    .item_pic{
+        width: 280px;
     }
 }
 
@@ -396,13 +429,24 @@ main{
     }
 
     .main_item{
-        padding-top: 5%;
+        padding: 5% 5% 3%;
+    }
+
+    .item_pic{
+        width: 500px;
     }
 }
 
-.item_pic{
-    width: 86%;
-    height: 83%;
+@media (max-width: 640px){
+    .item_pic{
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px){
+    .item_pic{
+        width: 380px;
+    }
 }
 
 .main_txt_nm{
@@ -412,7 +456,7 @@ main{
     font-weight: bold;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1270px){
     .main_txt_nm{
         font-size: 130%;
         line-height: 182%;
@@ -421,14 +465,14 @@ main{
 
 .main_txt_pr{
     font-size: 90%;
-    line-height: 64%;
+    line-height: 81%;
     font-family: Roboto, sans-serif;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1270px){
     .main_txt_pr{
         font-size: 130%;
-        line-height: 68%;
+        line-height: 78%;
     }
 }
 
@@ -449,6 +493,10 @@ main{
     line-height: 4.5rem;
     font-family: Roboto, sans-serif;
     background-color: #113f67;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-style: initial;
     font-weight: bold;
     text-align: center;
     color: coral;
@@ -467,6 +515,11 @@ main{
 .table_container td, th{
     padding: 10px;
     text-align: center;
+    font-family: Roboto, sans-serif;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-style: initial;
     font-size: 1rem;
 }
 
