@@ -20,8 +20,6 @@ async function fetchDataFilter(rand) {
 function update(reviewDetails) {
     const reviewsTemplate = document.getElementById('rev_template');
     const reviewsContainer = document.getElementById('rev_container');
-    const loadingContainer = document.getElementById('loading_container');
-
     const review = reviewsTemplate.content.cloneNode(true);
 
     review.getElementById('name_s').textContent = reviewDetails['name'];
@@ -29,36 +27,30 @@ function update(reviewDetails) {
     review.getElementById('body_s').textContent = reviewDetails['body'];
 
     reviewsContainer.appendChild(review);
-
-    /*let newRev = document.createElement('ul');
-    newRev.classList.add('rev_s')
-    reviewsList.appendChild(newRev);
-
-    let newName = document.createElement('il');
-    newName.textContent = reviewDetails['name'];
-    newName.classList.add('name_s')
-    newRev.appendChild(newName);
-
-    let newBody = document.createElement('li');
-    newBody.textContent = reviewDetails['body'];
-    newBody.classList.add('body_s')
-    newRev.appendChild(newBody);*/
-
-    loadingContainer.style.display = 'none';
-    reviewsContainer.style.display = 'block';
 }
 
 async function fetchData() {
+    const reviewsContainer = document.getElementById('rev_container');
+    const loadingContainer = document.getElementById('loading_container');
+    const dataArray = [];
+
     for (let i = 0; i < 6; i++) {
         try {
             let rand = Math.floor(Math.random() * 499);
             const userData = await fetchDataFilter(rand, i);
 
-            update(userData);
+            dataArray.push(userData)
         } catch (error) {
             return;
         }
     }
+
+    for (const data of dataArray) {
+        update(data);
+    }
+
+    loadingContainer.style.display = 'none';
+    reviewsContainer.style.display = 'block';
 }
 
 setTimeout(function () {

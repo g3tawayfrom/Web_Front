@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function createAndSaveCard(title, content) {
         if (content.trim() === '') {
+            alert('Невозможно подать пустую форму')
             return;
         }
 
