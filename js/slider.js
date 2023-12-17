@@ -4,6 +4,15 @@ $(document).ready(function(){
         //включаем отображения кнопок перехода и точек слайдера
         arrows: true,
         dots: true,
+        //поставим в зависимость к кнопкам "далее" и "назад" наши собственные структуры
+        nextArrow: '<div class="arrow-2">\n' +
+            '        <div class="arrow-2-top"></div>\n' +
+            '        <div class="arrow-2-bottom"></div>\n' +
+            '    </div>',
+        prevArrow: '<div class="arrow-1">\n' +
+            '        <div class="arrow-1-top"></div>\n' +
+            '        <div class="arrow-1-bottom"></div>\n' +
+            '    </div>',
         //выставляем количество слайдов на отображение и начальный слайд
         slidesToShow:1,
         initialSlide: 0,
@@ -15,5 +24,21 @@ $(document).ready(function(){
         pauseOnHover: true,
         //убираем возможность "перелистывать" слайды на ПК, но оставляем при просмотре страницы с мобильных устройств
         draggable:false,
+        //напишем условия, при которых настройки нашего слайдера будут изменяться
+        responsive: [
+            {
+                breakpoint: 1380,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 1061,
+                settings: {
+                    arrows: true,
+                    dots: false,
+                }
+            }
+        ]
     });
 });
