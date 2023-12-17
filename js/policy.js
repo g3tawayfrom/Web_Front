@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     policyButton.addEventListener('click', showRegistrationForm);
 
     function showRegistrationForm() {
+        //выпадение модального окна
         Swal.fire({
             title: 'Политика продаж',
             html:

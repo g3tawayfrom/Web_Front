@@ -306,8 +306,8 @@ main{
     }
 
     .hype_pic{
-        width: 92%;
-        margin: 1.5% 0 1% 4%;
+        width: 84%;
+        margin: 1.5% 0 1% 8%;
     }
 }
 
@@ -344,7 +344,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4%;
+    gap: 6%;
     flex: 0 1 auto;
     height: max-content;
     padding: 0 3% 2%;
