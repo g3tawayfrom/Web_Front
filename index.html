@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/slider.css"/>
     <link rel="stylesheet" type="text/css" href="css/style_test.css"/>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="libs/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/main.js"></script>
     <script src="js/policy.js"></script>
@@ -19,7 +19,7 @@
     <header>
         <div class="logo_gen">
             <div class="logo_min">
-                <img class="logo_pic" src="content/logo.png"></a>
+                <img class="logo_pic" src="content/logo.png">
             </div>
         </div>
         <!--- <h2 class="h_text">Здесь могла бы быть ваша реклама</h2> --->
@@ -35,6 +35,13 @@
                 <li class="hb_mypurch" id="policy_button">Политика продаж</li>
             </ul>
         </nav>
+
+        <template id="artTemplate">
+            <article>
+                <h2 id="art_h2"></h2>
+                <p id="art_p" class="popup_inner2"></p>
+            </article>
+        </template>
     </header>
 
     <main>
